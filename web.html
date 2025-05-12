@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporate Housing USA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .header {
+      background-color: #891c1c;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      background: white;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .nav a {
+      margin: 0 20px;
+      color: #333;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('your-pool-image.jpg') center/cover no-repeat;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 48px;
+      background: rgba(0,0,0,0.4);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .reservation {
+      padding: 40px;
+      background: #f5f5f5;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .reservation h2 {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      font-size: 16px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      font-size: 18px;
+      background-color: #891c1c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .footer {
+      background-color: #891c1c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .footer a {
+      color: white;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header -->
+  <div class="header">
+    <div>
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div>Reservations: <strong>866-633-6169</strong></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#">Locations</a>
+    <a href="#">Housing Options</a>
+    <a href="#">FEMA FLEXIBLE™</a>
+    <a href="#">FAQs</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Exclusive Access to Onsite Amenities</h1>
+  </div>
+
+  <!-- Reservation Form -->
+  <div class="reservation">
+    <h2>Reservation Request</h2>
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="Name" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="Phone" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="message">Message / Special Requests:</label>
+      <textarea id="message" name="Message" rows="5"></textarea>
+
+      <button type="submit">Submit Reservation</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Corporate Quarters USA. All rights reserved.</p>
+    <div>
+      <a href="#">Facebook</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+
+</body>
+</html>
